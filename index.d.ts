@@ -746,7 +746,6 @@ declare module 'plaid' {
     constructor(
       clientId: string,
       secret: string,
-      publicKey: string,
       env: string,
       options?: ClientOptions,
     );
